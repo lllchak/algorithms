@@ -4,3 +4,4 @@ This repository contains descriptions and solutions of various tasks for algorit
 Below is a list of directories where you can find tasks on the desired topic
 - [Array](./array)
 - [Backtracking](./backtracking/)
+- [Simple Data Structures](./utils/data_structures.py)

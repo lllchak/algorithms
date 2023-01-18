@@ -45,7 +45,7 @@ def permute(nums: dtypes.List[int]) -> ReturnType:
 
 if __name__ == "__main__":
     test1_ans = [[1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], [3, 2, 1]]
-    run_tests.check(permute, test1_ans, **{"nums": [1, 2, 3]})
+    run_tests.check_print(permute, test1_ans, **{"nums": [1, 2, 3]})
 
     test2_ans = [[0, 1], [1, 0]]
-    run_tests.check(permute, test2_ans, **{"nums": [0, 1]})
+    run_tests.check_print(permute, test2_ans, **{"nums": [0, 1]})

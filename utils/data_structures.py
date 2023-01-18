@@ -1,4 +1,4 @@
-import dtypes
+from . import dtypes
 
 
 class ListNode:

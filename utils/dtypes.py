@@ -2,5 +2,6 @@ from typing import *
 
 
 __all__  = [
-    List, Callable, Any
+    List, Callable, Any,
+    Optional
 ]

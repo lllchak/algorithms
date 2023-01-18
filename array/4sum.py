@@ -64,7 +64,9 @@ def four_sum(nums: dtypes.List[int], target: int) -> ReturnType:
 
 if __name__ == "__main__":
     test1_ans = [[-2, -1, 1, 2], [-2, 0, 0, 2], [-1, 0, 0, 1]]
-    run_tests.check(four_sum, test1_ans, **{"nums": [1, 0, -1, 0, -2, 2], "target": 0})
+    assert run_tests.check_eq(four_sum, test1_ans, **{"nums": [1, 0, -1, 0, -2, 2], "target": 0})
 
     test2_ans = [[2,2,2,2]]
-    run_tests.check(four_sum, test2_ans, **{"nums": [2, 2, 2, 2, 2], "target": 8})
+    assert run_tests.check_eq(four_sum, test2_ans, **{"nums": [2, 2, 2, 2, 2], "target": 8})
+
+    print("SUCCESS")

@@ -12,8 +12,8 @@ Input: n = 1, k = 1
 Output: [[1]]
 
 Constraints:
-    - 1 <= n <= 20
-    - 1 <= k <= n
+    * 1 <= n <= 20
+    * 1 <= k <= n
 """
 
 import sys
